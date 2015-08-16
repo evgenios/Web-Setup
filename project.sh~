@@ -12,7 +12,6 @@ touch index.html
 
 echo "Removing stuff you don't want..."
 rm -rf .git
-rm Readme.md
-rm LICENSE.txt
+rm README.md
 
 echo "Ready to go! "
