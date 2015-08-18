@@ -2,10 +2,8 @@
 echo "Creating necessary folders..."
 mkdir ./src
 mkdir ./src/images
-mkdir ./src/css && cd ./src/css && touch style.css
-cd .. && cd ..
-mkdir ./src/js && cd ./src/js && index.js
-cd .. && cd ..
+mkdir ./src/css && touch style.css
+mkdir ./src/js && touch index.js
 mkdir ./dist
 mkdir ./dist/css
 mkdir ./dist/js
